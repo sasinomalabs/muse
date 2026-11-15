@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — Muse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="login-page">
+    <section class="login-card" aria-labelledby="login-title">
+      <h1 id="login-title">Welcome back</h1>
+      <p class="login-subtitle">Sign in to Muse to continue.</p>
+
+      <form action="#" method="post">
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" autocomplete="username" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="current-password" required>
+        </div>
+
+        <button type="submit" name="login">Log in</button>
+      </form>
+
+      <p class="login-help">
+        <a href="#">Forgot your password?</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
